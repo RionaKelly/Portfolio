@@ -1,5 +1,5 @@
 <head>
-    <meta name="author" content="Carla Epifanio Vivero">
+    <meta name="author" content="Riona Kelly">
 </head>
 
 <script>
@@ -8,11 +8,11 @@
     import { onMount } from 'svelte';
   
     onMount(() => {
-      document.body.classList.add('products-page-body');
-      console.log("Products Page Loaded");
+      document.body.classList.add('portfolio-page-body');
+      console.log("Portfolio Page Loaded");
 
       return () => {
-        document.body.classList.remove('products-page-body');
+        document.body.classList.remove('portfolio-page-body');
       };
     });
 
@@ -44,8 +44,6 @@
   <input type="text" class="search-bar" bind:value={searchTerm} placeholder="Search . . ."/>
   <button on:click={handleSearch} class="search-button">Search</button>
 </div>
-
-<div class="page-bg"></div>
 
 <div class="catalog">
   <div class="catalog-item">
@@ -122,21 +120,6 @@
 </div>
       
 <style>
-.page-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  opacity: 60%;
-  background-image: url("/bg-william-morris.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  pointer-events: none;
-}
-
 .page-title {
   grid-area: title;
   padding: 13px;

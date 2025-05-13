@@ -10,11 +10,17 @@
 
     <!-- Navigation Links -->
     <ul class:open={isOpen}>
-        <li><a href="{base}/">Home</a></li>
-        <li><a href="{base}/products">Products</a></li>
         <li><a href="{base}/about">About</a></li>
-        <li><a href="{base}/cart">Cart</a></li>
-        <li><a href="{base}/account">Account</a></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li><a href="{base}/portfolio" class="portfolio">Portfolio</a></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li><a href="{base}/contact" class="contact">Contact</a></li>
+        <li></li>
+        <li></li>
     </ul>
 </nav>
 
@@ -43,13 +49,17 @@
     .nav ul li a {
         text-decoration: none;
         color: white;
-        font-weight: bold;
         opacity: 1;
-        transition: 0.15s ease-in-out;
+        transition: 0.1s ease-in-out;
+        font-family: "Monda", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 28px;
     }
     .nav ul li a:hover {
-        opacity: 0.9;
-        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+        opacity: .9;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
     }
     .nav ul li:hover {
         transform: translateY(1px);
@@ -66,6 +76,14 @@
         position: absolute;
         top: 1rem;
         left: 1rem;
+    }
+
+    .nav ul li .portfolio {
+        color: #ffd835;
+    }
+
+    .nav ul li .contact {
+        color: #c291ff;
     }
 
     /* Mobile Navigation: Show Burger Menu */

@@ -13,9 +13,6 @@
     })
     
 </script>
-
-<div class="page-bg"></div>
-
 <div class="row">
 <div class="left"><h1>About Us</h1>
 <p>Hi! We are Lilac, a small women-owned tea business based in Tea City.</p>
@@ -46,21 +43,6 @@
  content: "";
  display: table;
  clear: both;
-}
-
-.page-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  opacity: 60%;
-  background-image: url("/bg-william-morris.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  pointer-events: none;
 }
 
 h1 {

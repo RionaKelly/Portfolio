@@ -2,15 +2,19 @@
    Global Styles with CSS Variables
    ============================== */
 
-   :root {
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Monda&display=swap');
+
+:root {
     /* Color Variables */
     --primary-color: #df99f5;
-    --background-color: #fdf5ff;
-    --text-color: #303030;
-    --link-hover-color: #6a1e73;
+    --background-color: #c8c8c8;
+    --text-color: #000000;
+    --link-hover-color: #2e062c;
 
     /* Font Variables */
-    --font-family: 'Arial', sans-serif;
+    --font-family: "Fira Sans", sans-serif;
+    --font-weight: 400;
+    --font-style: normal;
     --font-size-base: 16px;
     --line-height-base: 1.6;
 
@@ -45,9 +49,10 @@ body {
    Headings
    ============================== */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    font-family: 'Chiro', Chiro-Regular;
-    margin-bottom: var(--spacing-small);
+    font-family: "Monda", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* ==============================
@@ -86,4 +91,11 @@ a:hover {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.monda {
+    font-family: "Monda", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }

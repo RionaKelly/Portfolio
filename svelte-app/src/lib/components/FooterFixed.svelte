@@ -4,15 +4,14 @@
 </script>
 
 <footer>
-    <p>&copy; 2025 My Svelte App. All rights reserved.</p>
-    <!-- Navigation -->
+    <p>&copy; 2025 Riona Kelly. All rights reserved.</p>
     <NavigationFooter />
 </footer>
 
 
 <style>
     footer {
-        background-image: linear-gradient(rgb(203, 123, 225), rgb(213, 143, 235), rgb(223, 153, 245), rgb(213, 143, 235), rgb(203, 123, 225));
+        background-image: linear-gradient(rgb(10, 10, 10), rgb(20, 20, 20), rgb(30, 30, 30), rgb(20, 20, 20), rgb(10, 10, 10));
         color: white;
         text-align: center;
         padding: 1rem;

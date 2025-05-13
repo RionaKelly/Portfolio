@@ -1,5 +1,5 @@
 <head>
-  <meta name="author" content="Montana Nicholas">
+  <meta name="author" content="Riona Kelly">
 </head>
 
 <script>
@@ -13,8 +13,6 @@ import { base } from '$app/paths';
 </script>
 
 <body> 
-<div class="page-bg"></div>
-
 <div class="title"><h1>Contact Us</h1></div>
 
 <div class="rectangle right"><h2>SEND US A MESSAGE</h2> 
@@ -41,22 +39,6 @@ import { base } from '$app/paths';
 
    
 <style>
-
-.page-bg {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-z-index: -10;
-opacity: 60%;
-background-image: url("/bg-william-morris.jpg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-pointer-events: none;
-}
-
 body {
 font-family: Arial, sans-serif;
 margin: 0;

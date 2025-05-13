@@ -9,9 +9,8 @@
     <!-- Logo -->
     <div class="logo">
         <a href="{base}/">
-            <img src="{base}/logo.png" alt="Website Logo">
+            <img src="{base}/favicon2.png" alt="Website Logo">
         </a>
-        <h1>Lilac</h1>
     </div>
 
     <!-- Navigation -->
@@ -22,12 +21,12 @@
 <style>
     /* Header Styling */
     header {
-        background-image: linear-gradient(rgb(203, 123, 225), rgb(213, 143, 235), rgb(223, 153, 245), rgb(213, 143, 235), rgb(203, 123, 225));
+        background-image: linear-gradient(rgb(10, 10, 10), rgb(20, 20, 20), rgb(30, 30, 30), rgb(20, 20, 20), rgb(10, 10, 10));
         display: flex; /* Enables Flexbox */
         align-items: center; /* Vertically centers the items */
         justify-content: space-between; /* Pushes logo to left, nav to right */
         color: white;
-        padding: 1rem;
+        padding: 1em;
     }
 
     /* Logo Container */
@@ -37,17 +36,17 @@
     }
 
     .logo img {
-        width: 50px;
+        width: 68px;
         margin-right: 10px;
         opacity: 1;
         transition: 0.2s ease-in-out;
     }
 
     .logo img:hover {
-        width: 48px;
-        margin-right: 13px;
+        width: 60px;
+        margin-right: 10px;
         opacity: 0.9;
-        margin-left: 1px;
+        margin-left: 3px;
 }
 
     /* Mobile: Center logo and stack items */

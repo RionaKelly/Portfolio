@@ -3,6 +3,8 @@
 </head>
 
 <script>
+// @ts-nocheck
+
   import { base } from '$app/paths';
   import { onMount } from 'svelte';
   import { browser } from '$app/environment';
@@ -23,14 +25,24 @@
       }
   });
 </script>
+<div class="first-div">
+  <div class="left">
+    <p>Hey! I'm Riona, nice to meet you!!</p>
+    <iframe width="560" height="315" class="left-padding" title="Starburst" src="https://www.youtube.com/embed/gC9f7HGMo1s?si=jWfad7fnDouoU-tT" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen frameborder="0"></iframe>
+    <br>
+    <a href="https://github.com/RionaKelly" target="_blank"><img src="{base}/github_link.png" class="left-padding" alt="My github link, https://github.com/RionaKelly"></a>
+    <p>Here you can see my recent work and learn more about me. Hope you enjoy! :D</p>
+  </div>
+  <div class="right" align="right">
+    <img src="{base}/riona_purple.png" alt="Riona Kelly">
+  </div>
+</div>
+<div>
+  <p>test paragraph 1</p>
+</div>
+<p>test paragraph 2</p>
 
-<div class="page-bg"></div>
-
-<h1>Welcome to Lilac</h1>
-<p class="first">Here at Lilac Tea, we produce affordable Herbal Tea as a fun and stylish alternative to other expensive health drinks currently on the market.</p>
-<br>
-
- <div class="carousel">{#if Carousel}
+<!-- <div class="carousel">{#if Carousel}         Leaving this here in case I need a carousel example for later
  <Carousel
      bind:this={carousel}
      autoplay
@@ -50,68 +62,40 @@
       <h2>Cherry Blossom</h2></center></div>
  </Carousel>
 {:else}
- <!-- Fallback content while loading -->
+ Fallback content while loading
  <p>Loading carousel...</p>
-{/if}</div>
-
-<br>
-<p>We are a small, woman-owned business in the centre of Tea City. Our drinks are all natural with incredible health benefits that are not seen in any other similar drinks on the market. They are sold in 3 different delicious flavours:</p>
-<ul>
-  <li>- Blueberry Lavender</li>
-  <li>- Elderflower</li>
-  <li>- Cherry Blossom</li>
-</ul>
+{/if}</div> -->
 
 <style>
 
-.page-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  opacity: 60%;
-  background-image: url("/bg-william-morris.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  pointer-events: none;
-}
-
-h1 {
-  grid-area: title;
-  padding: 13px;
-  color: #6a1e73;
-  font-weight: bold;
-  font-size: 72px;
-  text-align: center;
-}
-
 p {
-  padding: 13px;
+  padding-top: 16px;
+  padding-left: 16px;
   font-size: 24px;
   text-align: left;
 }
 
-ul {
-  padding: 13px;
-  font-size: 24px;
-  text-align: left;
+iframe {
+
 }
 
-p + ul { /*selects only the uls after a p, to remove the break between them*/
-    margin-top: -36px; 
+.left-padding {
+  padding-left: 20px;
 }
 
-.first {
-  font-size: 28px;
-  text-align: center;
+.left {
+ float: left;
+ width: 50%;
+}
+.right {
+ float: right;
+ width: 50%;
+ padding: 16px;
+ max-height: 200px;
 }
 
-.carousel {
-  max-width: 800px;
-  margin: auto;
-  align-items: center;
+.first-div {
+  padding-top: 16px;
+  display: flex;
 }
 </style>
