@@ -1,128 +1,157 @@
 <head>
-  <meta name="author" content="Riona Kelly">
+    <meta name="author" content="Riona Kelly">
 </head>
 
 <script>
-import { base } from '$app/paths';
+// @ts-nocheck
 
+  import { base } from '$app/paths';
   import { onMount } from 'svelte';
-
+  
   onMount(() => {
       console.log("Contact Page Loaded");
   })
 </script>
 
 <body> 
-<div class="title"><h1>Contact Us</h1></div>
-
-<div class="rectangle right"><h2>SEND US A MESSAGE</h2> 
-<form>
-<input type="text" placeholder="FULL NAME" required>
-<input type="email" placeholder="EMAIL ADDRESS" required>
-<input type="text" placeholder="TYPE YOUR MESSAGE...." required>
-</form>
+<div class="title"><h1>Contact Me</h1></div>
+<div class="first-container"> <!-- Non-functioning (for now) contact form -->
+  <!-- svelte-ignore element_invalid_self_closing_tag -->
+  <textarea type="text" class="name" id="name" placeholder="Name"/>
+  <!-- svelte-ignore element_invalid_self_closing_tag -->
+  <textarea type="text" class="email" id= "email" placeholder="Email Address"/>
 </div>
+<div class="second-container">
+<!-- svelte-ignore element_invalid_self_closing_tag -->
+<textarea type="text" class="message" placeholder="Message..."/>
+<div class="third-container">
+  <input type="submit" value="Submit">
+</div>
+<br class="desktop-only">
+<br class="desktop-only">
+<br class="desktop-only">
+<br class="desktop-only">
+<div class="fourth-container"> <!-- For some reason when i use the images the website won't load and I can'te tell why, so they must stay links for now -->
+  <a href="https://www.instagram.com/rionamk/" target="_blank"> <p>Instagram</p>
+    <!-- <img src="{base}/instagram.png"alt="My instagram, https://www.instagram.com/rionamk/"> -->
+  </a>
+  <a href="https://www.linkedin.com/in/riona-kelly-720536304/" target="_blank"><p>Linkedin</p>
+    <!-- <img src="{base}/linkedin.png"  alt="My linkedin, https://www.linkedin.com/in/riona-kelly-720536304/"> -->
+  </a>
+  <a href="https://github.com/RionaKelly" target="_blank"><p>Github</p>
+    <!-- <img src="{base}/github.png" alt="My github, https://github.com/RionaKelly"> -->
+  </a>
+</div>
+</body>
 
-<div class="rectangle left"><br>
-  <div class="location"><img src="{base}/location.png" alt="location" width="40" height="40"></div>
-  <b> ADDRESS: </b>
-  <p> Tea City, Tea Land</p>
-  <div class="call"><img src="{base}/call.png" alt="call" width="40" height="40"></div>
-  <b> PHONE: </b>
-  <p> 08500000</p>
-  <div class="mail"><img src="{base}/mail.png" alt="mail" width="40" height="40"></div>
-  <b> EMAIL: </b>
-  <p> LilacTea@gmail.com</p>
-  <br>
-  </div>
-  </body>
-
-   
 <style>
-body {
-font-family: Arial, sans-serif;
-margin: 0;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
-
-}
-
-
-.left {
-
-position: fixed;
-top: 60%;
-margin-left: 15%;
-transform: translateY(-50%);
-width: 235px;   
-background-color: #d17de6;
-border: 1px solid #6a1e73;
-padding: 20px;
-border-radius: 5px;
- 
-}
-
-
-.right {
-
-position: fixed;
-top: 60%;
-margin-left: 70%;
-transform: translateY(-50%);
-width: 400px; 
-background-color: #f7e4fc;
-border: 1px solid #6a1e73;
-border-radius: 4px;
-padding: 40px;
-
-}
-
-.title {
+h1 {
   grid-area: title;
-  padding: 13px;
-  color: #6a1e73;
+  padding: 16px;
+  color: #000000;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 48px;
   text-align: center;
 }
 
-h2 {
-margin-left: 10%;
+.first-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+}
+.second-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+}
+.third-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+}
+.fourth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
 }
 
 p {
-margin-left: 25%;
-font-size: 15px;
-color: white;
+  text-align: center;
+  padding-right: 16px;
 }
 
-b {
-font-size: 20px;
-font-weight: 100px;
-margin-left: 20%;
-color: #6a1e73;
+.name { /* Classes are seperated here so that i could modify them seperately and play around with them to see what its like certain ways */
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  margin-right: 6px;
+  height: 45px;
+  width: 200px;
+  resize: none;
+}
+.email {
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  margin-left: 6px;
+  height: 45px;
+  width: 200px;
+  resize: none;
+  
+}
+.message {
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  margin-right: 0px;
+  height: 250px;
+  width: 500px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 12px;
+  transition: 0.1s ease-in-out;
+}
+input[type=submit]:hover {
+  background-color: var(--link-hover-color);
 }
 
-form input {
-display: block;
-width: 100%;
-margin: 20px 0;
-padding: 10px 5px;
-background: transparent;
-border: none;
-border-bottom: 2px solid #5d3c70;
-font-size: 12px;
-color: #333;
-outline: none;
-}
+/* Mobile Navigation:*/
+@media (max-width: 728px) {
+  .desktop-only {
+    display: none;
+  }
 
-form input::placeholder {
-color: #5d3c70;
-text-transform: uppercase;
-font-size: 10px;
-}
+  .first-container {
+  display: grid;
+  }
 
+  .name { 
+  width: 300px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+
+}
+.email {
+  width: 300px;
+  margin-left: 0px;
+  
+}
+.message {
+  width: 300px;
+}
+}
 </style>

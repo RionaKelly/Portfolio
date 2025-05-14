@@ -7,64 +7,45 @@
 
   import { base } from '$app/paths';
   import { onMount } from 'svelte';
-  import { browser } from '$app/environment';
-
-  /**
- * @type {__sveltets_2_IsomorphicComponent<__sveltets_2_PropsWithChildren<{ timingFunction?: string | undefined; arrows?: boolean | undefined; infinite?: boolean | undefined; initialPageIndex?: number | undefined; duration?: number | undefined; autoplay?: boolean | undefined; autoplayDuration?: number | undefined; autoplayDirection?: any; pauseOnFocus?: boolean | undefined; autoplayProgressVisible?: boolean | undefined; dots?: boolean | undefined; swiping?: boolean | undefined; particlesToShow?: number | undefined; particlesToScroll?: number | undefined; goTo?: ((pageIndex: any, options: any) => Promise<void>) | undefined; goToPrev?: ((options: any) => Promise<void>) | undefined; goToNext?: ((options: any) => Promise<void>) | undefined; }, { prev: { showPrevPage: any; }; default: { loaded: any[]; currentPageIndex: any; }; next: { showNextPage: any; }; dots: { currentPageIndex: any; pagesCount: number; showPage: (pageIndex: any) => Promise<void>; }; }>, { [evt: string]: CustomEvent<any>; }, { prev: { showPrevPage: any; }; default: { loaded: any[]; currentPageIndex: any; }; next: { showNextPage: any; }; dots: { currentPageIndex: any; pagesCount: number; showPage: (pageIndex: any) => Promise<void>; }; }, { goTo: (pageIndex: any, options: any) => Promise<void>; goToPrev: (options: any) => Promise<void>; goToNext: (options: any) => Promise<void>; }, string>}
- */
-  let Carousel; // for dynamic import of the carousel component
-  /* @type {import('svelte-carousel').default} */
-  let carousel; // for calling methods of the carousel instance
   
-  onMount(async () => {
+  onMount(() => {
       console.log("Home Page Loaded");
-      if (browser) {
-          // dynamically import only in the browser
-          const module = await import('svelte-carousel');
-          Carousel = module.default;
-      }
-  });
+  })
 </script>
+
 <div class="first-div">
   <div class="left">
-    <p>Hey! I'm Riona, nice to meet you!!</p>
+    <p>Hey! I'm Riona, nice to meet you!! <br> I'm a 20 year old Irish girl studying Game & Web Design.</p>
+    <p>Here you can see my recent work and learn more about me. This is my proudest project right now, <i>Starburst</i>. I made it with a friend for the 2025 Games Fleadh, and we were awarded Best Game using Libraries and Best Game Mechanics.</p>
     <iframe width="560" height="315" class="left-padding" title="Starburst" src="https://www.youtube.com/embed/gC9f7HGMo1s?si=jWfad7fnDouoU-tT" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen frameborder="0"></iframe>
     <br>
     <a href="https://github.com/RionaKelly" target="_blank"><img src="{base}/github_link.png" class="left-padding" alt="My github link, https://github.com/RionaKelly"></a>
-    <p>Here you can see my recent work and learn more about me. Hope you enjoy! :D</p>
+    <p>Hope you enjoy looking around, and if you want to contact me for any reason you can find out how on the <a href="{base}/contact">Contact</a> page. I love meeting new people if you ever want to talk for any reason!</p>
   </div>
   <div class="right" align="right">
-    <img src="{base}/riona_purple.png" alt="Riona Kelly">
+    <img src="{base}/riona_purple.png" alt="Riona Kelly" class="desktop-only" width="800">
   </div>
 </div>
-<div>
-  <p>test paragraph 1</p>
-</div>
-<p>test paragraph 2</p>
+<br>
+<h1>My Recent Work</h1>
+<div class="second-div">
+  <div class="showcase1">
+    <img src="{base}/StarburstSS.png" alt="Screenshot of a game with a spaceship and planet in space" width=600>
+    <h2><b><a href="{base}/library">Starburst</b></h2>
+    <p>My team's entry to the 2025 Games Fleadh, Starburst, is a fast paced 2D Shooter where you grab asteroids around you and throw them at planets to destroy them and harvest their cores.</p>
+  </div>
+  <div class="showcase2">
+    <img src="{base}/PaintPartySS.png" alt="Screenshot of a game with 4 characters painting over an area" width=600 >
+    <h2><b><a href="{base}/library">Paint Party</b></h2>
+    <p>This is a multiplayer party game for up to four people where  you try and paint your colour on as much surface area as you can. I made this with 3 other students as a class project.</p>
 
-<!-- <div class="carousel">{#if Carousel}         Leaving this here in case I need a carousel example for later
- <Carousel
-     bind:this={carousel}
-     autoplay
-     autoplayDuration={5000}
-     autoplayProgressVisible
-     pauseOnFocus
-     swiping
- >
-     <div><center>
-      <img src="{base}/grape.png" alt="Blueberry Lavender Tea Cans" width="300" height="200">
-      <h2>Blueberry Lavender</h2></center></div>
-     <div><center>
-      <img src="{base}/doctor.png" alt="Elderflower" width="300" height="200">
-      <h2>Elderflower</h2></center></div>
-     <div><center>
-      <img src="{base}/cherry-vanilla.png" alt="Cherry Blossom" width="300" height="200">
-      <h2>Cherry Blossom</h2></center></div>
- </Carousel>
-{:else}
- Fallback content while loading
- <p>Loading carousel...</p>
-{/if}</div> -->
+  </div>
+  <div class="showcase3">
+    <img src="{base}/temporary.png" alt="temporary placeholder" width=600>
+    <h2><b>More Soon!</b></h2>
+    <p>That's all I have in store for now but I plan to update the website whenever I have more work to show off.</p>
+  </div>
+</div>
 
 <style>
 
@@ -75,8 +56,9 @@ p {
   text-align: left;
 }
 
-iframe {
-
+h1 {
+  text-align: left;
+  padding-left: 16px;
 }
 
 .left-padding {
@@ -97,5 +79,61 @@ iframe {
 .first-div {
   padding-top: 16px;
   display: flex;
+}
+.second-div {
+  padding: 8px;
+}
+
+.showcase1 { /* These are left as seperate classes so that I can play around and try different settings for each one */
+  float: left;
+  width: 33%;
+  padding: 16px;
+}
+.showcase2 {
+  float: left;
+  width: 33%;
+  padding: 16px;
+}
+.showcase3 {
+  float: right;
+  width: 33%;
+  padding: 16px;
+}
+.showcase1 p {
+  padding-left: 0;
+}
+.showcase2 p {
+  padding-left: 0;
+}
+.showcase3 p {
+  padding-left: 0;
+}
+
+/* Mobile Navigation:*/
+@media (max-width: 1200px) {
+  .right {
+    display: none;
+  }
+
+  .left {
+    width: 100%
+  }
+
+  .showcase1 {
+    float: none;
+    width: 100%;
+  }
+  .showcase2 {
+    float: none;
+    width: 100%;
+  }
+  .showcase3 {
+    float: none;
+    width: 100%;
+  }
+
+  .desktop-only {
+    display: none;
+  }
 }
 </style>

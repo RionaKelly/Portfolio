@@ -10,15 +10,15 @@
 
     <!-- Navigation Links -->
     <ul class:open={isOpen}>
-        <li><a href="{base}/about">About</a></li>
+        <li><a href="{base}/about" on:click={() => isOpen = !isOpen}>About</a></li>
         <li></li>
         <li></li>
         <li></li>
-        <li><a href="{base}/portfolio" class="portfolio">Portfolio</a></li>
+        <li><a href="{base}/portfolio" class="portfolio" on:click={() => isOpen = !isOpen}>Portfolio</a></li>
         <li></li>
         <li></li>
         <li></li>
-        <li><a href="{base}/contact" class="contact">Contact</a></li>
+        <li><a href="{base}/contact" class="contact" on:click={() => isOpen = !isOpen}>Contact</a></li>
         <li></li>
         <li></li>
     </ul>
@@ -91,6 +91,7 @@
         .burger {
             display: block; /* Show burger icon */
             left: 90%;
+            bottom: 90%;
         }
 
         .nav ul {
@@ -100,7 +101,7 @@
             top: 90px;
             left: 0;
             width: 100%;
-            background: #6a1e73;
+            background: rgb(25, 25, 25);
             text-align: left;
             padding: 1rem 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

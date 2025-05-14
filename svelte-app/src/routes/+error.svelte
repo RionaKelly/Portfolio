@@ -30,6 +30,6 @@ h1{
 p{
   font-size: 80px;
   margin-left: 35%;
-  color: rgb(121, 19, 121);
+  color: rgb(0, 0, 0);
 }
 </style>

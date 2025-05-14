@@ -4,8 +4,9 @@
 </script>
 
 <footer>
+    <!-- <h2>Riona Kelly</h2>
+    <h3>Game/Web Designer & Developer</h3>-->
     <p>&copy; 2025 Riona Kelly. All rights reserved.</p>
-    <!-- Navigation -->
     <!--<NavigationFooter />-->
 </footer>
 
