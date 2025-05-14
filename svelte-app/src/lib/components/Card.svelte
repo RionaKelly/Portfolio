@@ -104,13 +104,5 @@
         gap: 40px;
         margin-top: 2rem;
     }
-
-    /* Adding Uniform Height */
-    .gallery > .card {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     
 </style>

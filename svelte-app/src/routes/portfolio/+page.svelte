@@ -74,14 +74,6 @@ p {
 
 /* Mobile Navigation:*/
 @media (max-width: 1200px) {
-  .right {
-    display: none;
-  }
-
-  .left {
-    width: 100%
-  }
-
   .c1 {
     float: none;
     width: 100%;
@@ -93,10 +85,6 @@ p {
   .c3 {
     float: none;
     width: 100%;
-  }
-
-  .desktop-only {
-    display: none;
   }
 }
 </style>
