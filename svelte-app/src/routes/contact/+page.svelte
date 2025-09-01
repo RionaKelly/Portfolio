@@ -48,7 +48,6 @@
 h1 {
   grid-area: title;
   padding: 16px;
-  color: #000000;
   font-weight: bold;
   font-size: 48px;
   text-align: center;

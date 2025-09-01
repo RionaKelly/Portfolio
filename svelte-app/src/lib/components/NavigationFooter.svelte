@@ -27,7 +27,6 @@
 
     nav ul li a {
         text-decoration: none;
-        color: white;
         font-weight: bold;
         opacity: 1;
         transition: 0.15s ease-in-out;

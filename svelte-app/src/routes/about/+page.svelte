@@ -32,6 +32,7 @@
   <p>Hello!! I'm Riona, a Web/Game Designer and Developer based in Ireland :></p>
   <p>I'm super interested in games, art and poetry, and am always up for a challenge or to try something new.
   <br>So feel free to reach out and contact me for any sort of project or opportunity!</p>
+  <p></p>
   <h2><b>Some Random Facts</b></h2>
   <p>- If you couldn't tell, my favourite colours are purple and yellow.</p>
   <p>- I have 3 cats</p>
@@ -92,7 +93,6 @@
 h1 {
   grid-area: title;
   padding: 16px;
-  color: #000000;
   font-weight: bold;
   font-size: 48px;
   text-align: left;

@@ -48,8 +48,8 @@
 
     .nav ul li a {
         text-decoration: none;
-        color: white;
-        opacity: 1;
+        color: #ffffff;
+        opacity: .9;
         transition: 0.1s ease-in-out;
         font-family: "Monda", sans-serif;
         font-optical-sizing: auto;
@@ -58,7 +58,7 @@
         font-size: 28px;
     }
     .nav ul li a:hover {
-        opacity: .9;
+        opacity: .8;
         text-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
     }
     .nav ul li:hover {
@@ -79,11 +79,11 @@
     }
 
     .nav ul li .portfolio {
-        color: #ffd835;
+        color: #ffd735;
     }
 
     .nav ul li .contact {
-        color: #c291ff;
+        color: #c894fc;
     }
 
     /* Mobile Navigation: Show Burger Menu */

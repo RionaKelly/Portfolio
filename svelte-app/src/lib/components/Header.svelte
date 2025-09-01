@@ -9,7 +9,7 @@
     <!-- Logo -->
     <div class="logo">
         <a href="{base}/">
-            <img src="{base}/favicon2.png" alt="Website Logo">
+            <img src="{base}/favicon4.png" alt="Website Logo">
         </a>
     </div>
 
@@ -21,7 +21,7 @@
 <style>
     /* Header Styling */
     header {
-        background-image: linear-gradient(rgb(10, 10, 10), rgb(20, 20, 20), rgb(30, 30, 30), rgb(20, 20, 20), rgb(10, 10, 10));
+        background-image: linear-gradient(rgb(7, 1, 20), rgb(13, 6, 30), rgb(19, 11, 40), rgb(13, 6, 30), rgb(7, 1, 20));
         display: flex; /* Enables Flexbox */
         align-items: center; /* Vertically centers the items */
         justify-content: space-between; /* Pushes logo to left, nav to right */

@@ -6,10 +6,14 @@
 
 :root {
     /* Color Variables */
-    --primary-color: #643872;
+    --primary-color: #f7ce76;
+    --background-color: #070114;
+    --text-color: #fff0ac;
+    --link-hover-color: #f0bd51;
+    /*--primary-color: #643872;
     --background-color: #c8c8c8;
     --text-color: #000000;
-    --link-hover-color: #cc62c7;
+    --link-hover-color: #cc62c7;*/
 
     /* Font Variables */
     --font-family: "Fira Sans", sans-serif;

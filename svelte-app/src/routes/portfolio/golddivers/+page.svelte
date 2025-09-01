@@ -25,8 +25,8 @@
       }
   });
 </script>
-<h1>Content Lost</h1>
-<p>This is a backup page for links to lead if I forget to add their individual pages</p>
+<h1>Gold Divers</h1>
+<p>Temporary Text</p>
 
 <style>
 p {

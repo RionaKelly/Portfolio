@@ -13,10 +13,10 @@
 
 <style>
     footer {
-        background-image: linear-gradient(rgb(10, 10, 10), rgb(20, 20, 20), rgb(30, 30, 30), rgb(20, 20, 20), rgb(10, 10, 10));
-        color: white;
+        background-image: linear-gradient(rgb(7, 1, 20), rgb(13, 6, 30), rgb(19, 11, 40), rgb(13, 6, 30), rgb(7, 1, 20));
         text-align: center;
         padding: 1rem;
+        color: #635286;
         position: relative;
         bottom: 0;
         width: 100%;
