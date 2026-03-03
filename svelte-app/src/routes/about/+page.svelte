@@ -77,11 +77,12 @@
 .left {
  float: left;
  width: 50%;
+ padding-left: 20px;
 }
 .right {
  float: right;
  width: 50%;
- padding: 42px;
+ padding: 40px;
 }
 
 .row:after {
