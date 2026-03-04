@@ -21,13 +21,13 @@ export const dictionary = {
 		"/": [2],
 		"/about": [3],
 		"/contact": [4],
-		"/library": [5],
-		"/portfolio": [6],
-		"/portfolio/games/desktoppet": [7],
-		"/portfolio/games/golddivers": [8],
-		"/portfolio/games/paintparty": [9],
-		"/portfolio/games/starburst": [10],
-		"/portfolio/games/unmasked": [11]
+		"/portfolio": [5],
+		"/portfolio/games/desktoppet": [6],
+		"/portfolio/games/golddivers": [7],
+		"/portfolio/games/paintparty": [8],
+		"/portfolio/games/starburst": [9],
+		"/portfolio/games/unmasked": [10],
+		"/privacy": [11]
 	};
 
 export const hooks = {

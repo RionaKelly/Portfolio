@@ -17,26 +17,30 @@
 <div class="row">
 <div class="left">
   <h1>About Me</h1>
-  <p>Hello!! I'm Riona, a Web/Game Designer & Developer based in Ireland :></p>
+  <p>Hello!! I'm Riona, a Web/Game Designer & Developer based in Ireland :D</p>
   <p>I'm super interested in games, art and poetry, and am always up for a challenge or to try something new.
   <br>So feel free to reach out and contact me for any sort of project or opportunity!</p>
+  <br>
   <p class="eyes">
   <img src="{base}/eyes3.jpg" alt="Riona Kelly" class="eye">
   <img src="{base}/eyes1.jpg" alt="Riona Kelly" class="eye">
   <img src="{base}/eyes2.jpg" alt="Riona Kelly" class="eye">
   </p>
-  <h2><b>Some Random Facts</b></h2>
-  <p>- If you couldn't tell, my favourite colours are purple and yellow.</p>
-  <p>- I have 3 cats</p>
-  <p>- I've been making games since I was a kid, they weren't very good back then but hopefully they're better now!!</p>
-  <p>- I loove socialising and will take any opportunity to meet new people (a lot of you reading this are probably random people I met while out, nice to see you again!)</p>
-  <p>- I'm hypermobile/double-jointed and can bend my my body in ways that it probably shouldn't go!</p>
-  <p>- I love cosplaying and you can find me at most Irish conventions if I have the money for them.</p>
+  <br>
+  <h2><b>The Next Part</b></h2>
+  <p>Honestly I'm not sure what to put here, I don't know what people usually put in 'About Me' sections.</p>
+  <p>I also always feel weird about giving too much personal information...</p>
+  <p>If you have any questions I'm happy to answer though!</p>
+  <p>For now I guess I hope you like what I've done with the place, keep looking around and I enjoyyy!!!</p>
+  <br>
   <p class="eyes">
   <img src="{base}/eyes3.jpg" alt="Riona Kelly" class="eye">
   <img src="{base}/eyes1.jpg" alt="Riona Kelly" class="eye">
   <img src="{base}/eyes2.jpg" alt="Riona Kelly" class="eye">
   </p>
+  <br>
+  <h2><b>Closing Statements</b></h2>
+  <p>byyyeeeee</p>
 </div>
 
 <div class="right">

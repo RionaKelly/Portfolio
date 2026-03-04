@@ -18,7 +18,7 @@
 <div class="first-container"> <!-- For some reason when i use the images the website won't load and I can'te tell why, so they must stay links for now -->
   <br class="desktop-only">
   <a href="https://www.linkedin.com/in/riona-kelly-720536304/" target="_blank">
-    <p>
+    <p class="sink">
       <img src="{base}/linkedin.png" alt="Linkedin Icon 1">
       Linkedin
       <img src="{base}/linkedin.png" alt="Linkedin Icon 2">
@@ -26,7 +26,7 @@
   </a>
   <br>
   <a href="https://github.com/RionaKelly" target="_blank">
-    <p>
+    <p class="sink">
       <img src="{base}/github.png" alt="Github Icon 1">
       Github
       <img src="{base}/github.png" alt="Github Icon 2">
@@ -34,13 +34,14 @@
   </a>
   <br>
   <a href="https://www.instagram.com/rionamk/" target="_blank">
-    <p>
+    <p class="sink">
       <img src="{base}/instagram.png" alt="Instagram Icon 1">
       Instagram
       <img src="{base}/instagram.png" alt="Instagram Icon 2">
     </p>
   </a>
   <br>
+  <div class="sink">
   <a href="mailto:rionaqueens@gmail.com" target="_blank">
     <p>
       <img src="{base}/mail.png" alt="Email Icon 1">
@@ -49,6 +50,7 @@
     </p>
     <p class="email">(rionaqueens@gmail.com)</p>
   </a>
+  </div>
 </div>
 
 <style>
@@ -61,13 +63,12 @@ h1 {
 }
 
 .first-container {
-  margin: 20px 0;
+  margin: 10px 0;
   font-size: 32px;
 }
 
 p {
   text-align: center;
-  padding-right: 16px;
 }
 
 img {
@@ -77,6 +78,14 @@ img {
 .email {
   font-size: 12px;
   margin: 0px;
+}
+.sink {
+  transition: 0.1s ease-in-out;
+}
+
+.sink:hover {
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+        transform: translateY(1px);
 }
 
 /* Mobile Navigation:*/

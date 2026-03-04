@@ -9,9 +9,6 @@
 	"/contact": [
 		"src/routes/+layout.js"
 	],
-	"/library": [
-		"src/routes/+layout.js"
-	],
 	"/portfolio": [
 		"src/routes/+layout.js"
 	],
@@ -28,6 +25,9 @@
 		"src/routes/+layout.js"
 	],
 	"/portfolio/games/unmasked": [
+		"src/routes/+layout.js"
+	],
+	"/privacy": [
 		"src/routes/+layout.js"
 	]
 }

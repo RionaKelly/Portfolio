@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/portfolio/games/paintparty/+page.svelte";
+export { default as component } from "../../../../src/routes/portfolio/games/starburst/+page.svelte";

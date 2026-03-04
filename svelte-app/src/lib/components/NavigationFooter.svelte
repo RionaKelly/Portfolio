@@ -4,10 +4,9 @@
 
 
 <nav>
-    <ul>
-        <li><a href="{base}/faq">FAQ</a></li>
-        <li><a href="{base}/tos">ToS</a></li>
-        <li><a href="{base}/contact">Contact</a></li>
+    <ul> 
+        <li><p>&copy; 2026 Riona Kelly. All rights reserved.</p></li>
+        <li><a href="{base}/privacy" style="color: #635286;">Privacy Policy</a></li>
     </ul>
 </nav>
 
@@ -22,21 +21,24 @@
 
     nav ul li {
         margin: 0 15px;
-        transition: 0.15s ease-in-out;
     }
 
     nav ul li a {
         text-decoration: none;
         font-weight: bold;
-        opacity: 1;
-        transition: 0.15s ease-in-out;
     }
 
-    nav ul li a:hover {
-        opacity: 0.9;
-        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    /* Only on Desktop: */
+@media (min-width: 728px) {
+    nav ul li {
+        width: 300px;
     }
-    nav ul li:hover {
-        transform: translateY(1px);
-    }
+}
+
+    /* Only on Mobile:
+@media (min-width: 728px) {
+    .desktop-only {
+    display: none;
+  }
+} */
 </style>
