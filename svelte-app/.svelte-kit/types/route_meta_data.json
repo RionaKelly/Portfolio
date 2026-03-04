@@ -1,0 +1,27 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/about": [
+		"src/routes/+layout.js"
+	],
+	"/contact": [
+		"src/routes/+layout.js"
+	],
+	"/library": [
+		"src/routes/+layout.js"
+	],
+	"/portfolio": [
+		"src/routes/+layout.js"
+	],
+	"/portfolio/golddivers": [
+		"src/routes/+layout.js"
+	],
+	"/portfolio/paintparty": [
+		"src/routes/+layout.js"
+	],
+	"/portfolio/starburst": [
+		"src/routes/+layout.js"
+	]
+}

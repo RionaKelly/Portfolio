@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/portfolio/starburst/+page.svelte";
