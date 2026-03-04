@@ -9,7 +9,7 @@
     --primary-color: #f7ce76;
     --background-color: #070114;
     --text-color: #fff0ac;
-    --link-hover-color: #f0bd51;
+    --link-hover-color: #fccf61;
     /*--primary-color: #643872;
     --background-color: #c8c8c8;
     --text-color: #000000;
@@ -76,7 +76,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: var(--link-hover-color);
+    filter: saturate(150%);
 }
 
 /* ==============================

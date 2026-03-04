@@ -15,13 +15,19 @@
 	"/portfolio": [
 		"src/routes/+layout.js"
 	],
-	"/portfolio/golddivers": [
+	"/portfolio/games/desktoppet": [
 		"src/routes/+layout.js"
 	],
-	"/portfolio/paintparty": [
+	"/portfolio/games/golddivers": [
 		"src/routes/+layout.js"
 	],
-	"/portfolio/starburst": [
+	"/portfolio/games/paintparty": [
+		"src/routes/+layout.js"
+	],
+	"/portfolio/games/starburst": [
+		"src/routes/+layout.js"
+	],
+	"/portfolio/games/unmasked": [
 		"src/routes/+layout.js"
 	]
 }

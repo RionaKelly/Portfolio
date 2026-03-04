@@ -6,7 +6,8 @@
 <footer>
     <!-- <h2>Riona Kelly</h2>
     <h3>Game/Web Designer & Developer</h3>-->
-    <p>&copy; 2025 Riona Kelly. All rights reserved.</p>
+    <p>&copy; 2026 Riona Kelly. All rights reserved.</p>
+    <p>Privacy Policy</p>
     <!--<NavigationFooter />-->
 </footer>
 
