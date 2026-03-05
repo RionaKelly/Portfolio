@@ -10,64 +10,80 @@
   import { onMount } from 'svelte';
   
   onMount(() => {
-      console.log("Home Page Loaded");
-  })
+      console.log("About Page Loaded");
+
+  let randomNumber = Math.floor(Math.random() * 2) + 1;
+  
+  if (randomNumber == 1) {
+       document.getElementById("pic1").style.display = "block";
+   }
+  if (randomNumber == 2) {
+       document.getElementById("pic2").style.display = "block";
+   }
+  //if (randomNumber == 3) {
+       //document.getElementById("pic3").style.display = "block";
+   //}
+  });
 </script>
 
 <div class="row">
 <div class="left">
   <h1>About Me</h1>
   <p>Hello!! I'm Riona, a Web/Game Designer & Developer based in Ireland :></p>
-  <p>I'm super interested in games & art mainly, but I always love trying new things! 
-    so feel free to reach out and contact me for any sort of project or opportunity, or even if you just want to talk or hang out :D.</p>
+  <p>I'm super interested in games mainly, but I love art and poetry, and always enjoy trying new things! 
+  So feel free to reach out and contact me for any sort of project or opportunity, or even if you just want to talk or hang out :D.</p>
   <p class="eyes">
-  <img src="{base}/eyes3.jpg" alt="Riona Kelly" class="eye">
-  <img src="{base}/eyes1.jpg" alt="Riona Kelly" class="eye">
-  <img src="{base}/eyes2.jpg" alt="Riona Kelly" class="eye">
+  <img src="{base}/eyes3.jpg" alt="First Eyes for Seperation" class="eye">
+  <img src="{base}/eyes1.jpg" alt="Second Eyes for Seperation" class="eye">
+  <img src="{base}/eyes2.jpg" alt="Third Eyes for Seperation" class="eye">
   </p>
-  <h2><b>The Next Part</b></h2>
-  <p>Honestly I'm not sure what to put here, I don't know what people usually put in 'About Me' sections.
-  <br>I also always feel weird about giving too much personal information...</p>
-  <p>If you have any questions I'm happy to answer though!
-  <br>For now I guess I hope you like what I've done with the place, keep looking around and I enjoyyy!!!</p>
+  <h2><b>I Love Organisation but Can't Think of a Title</b></h2>
+  <p>Honestly I'm not sure what to put here, I don't know what people usually put in 'About Me' sections,
+    and I always feel weird about giving too much personal information. I'll fill this up properly eventually maybe but for now 
+    feel free to message me if you have any questions or want to get to know me more!</p>
+  <p>If you can't tell by now, I'm not the most professional person. I can be when I want to and sometimes it's fun, 
+    but I believe that my work (or solo work at least) should be an expression of myself, and that anything less fun and silly just isn't personal enough. 
+    <br>It wouldn't be Riona.</p>
+  <p>Thank you for reading and visiting my website, I hope you like what I've done with the place and enjoy your look around!</p>
   <p class="eyes">
-  <img src="{base}/eyes3.jpg" alt="Riona Kelly" class="eye">
-  <img src="{base}/eyes1.jpg" alt="Riona Kelly" class="eye">
-  <img src="{base}/eyes2.jpg" alt="Riona Kelly" class="eye">
+  <img src="{base}/eyes3.jpg" alt="First Eyes for Seperation" class="eye">
+  <img src="{base}/eyes1.jpg" alt="Second Eyes for Seperation" class="eye">
+  <img src="{base}/eyes2.jpg" alt="Third Eyes for Seperation" class="eye">
   </p>
-  <h2><b>Closing Statements</b></h2>
-  <p>byyyeeeee</p>
+  <h2><b>Bonus!!!</b></h2>
+  <p>I'm too indecesive to ever choose a photo for anything so the image here will randomise between some set choices (woah!!) (so cool!!!)</p>
 </div>
 
 <div class="right">
-<img src="{base}/riona_red.png" alt="Riona Kelly" class="pics">
-<!--<br>
-<img src="{base}/riona_bus.png" alt="Riona Kelly" width=600 class="pics">-->
+<img src="{base}/riona_red.png" alt="Red Riona Selfie with Face Markings" id="pic1">
+<img src="{base}/riona_bus.png" alt="Riona Selfie at a Bus Stop" id="pic2">
+<img src="{base}/riona_purple.png" alt="Purple Riona Selfie" id="pic3"> <!-- Disabled for now because I don't like it -->
 </div>
 </div>
 <div>
-
 </div>
 
 <style>
 
 .left {
  float: left;
- width: 50%;
+ width: 60%;
  padding-left: 20px;
 }
 
 .right {
  float: right;
- width: 50%;
+ width: 40%;
  padding: 60px;
+ padding-top: 8%
 }
 
-.pics {
-  display: block;
+.right img{
+  display: none;
   margin-left: auto;
   border-radius: 45px;
-  max-height: 600px;
+  max-height: 570px;
+  filter: opacity(95%)
 }
 
 .eyes {
@@ -78,9 +94,10 @@
 }
 
 .eye {
-  width: 32%;
-  padding-right: 3px;
+  width: 30%;
   border-radius: 15px;
+  margin: 5px;
+  filter: opacity(100%);
 }
 
 .row:after {
@@ -93,13 +110,13 @@ h1 {
   grid-area: title;
   padding: 16px;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 40px;
   text-align: left;
 }
 
 h2 {
   padding-left: 16px;
-  padding-bottom: 8px;
+  padding-bottom: 2px;
 }
 
 p {
@@ -110,7 +127,11 @@ p {
 /* Mobile Navigation:*/
 @media (max-width: 1200px) {
   .right {
-    display: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .left {

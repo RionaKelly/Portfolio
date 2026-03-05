@@ -15,7 +15,7 @@
 </script>
 
 <h1>Privacy Policy</h1>
-<p>I don't think I'm gathering any any of your information but if I am it is an ACCIDENT and I'm definitely not using it for anything.</p>
+<p>I don't think I'm gathering any any of your information but if I am it is <b><u>NOT KNOWINGLY</u></b> and I'm definitely not using it for anything.</p>
 <br>
 <p>👍</p>
 
