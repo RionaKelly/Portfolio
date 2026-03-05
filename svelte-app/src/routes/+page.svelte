@@ -15,8 +15,9 @@
 
 <div class="first-div">
   <div class="left">
-    <p>Hey! I'm Riona, nice to meet you!! <br> I'm a 20 year old Irish woman studying Game & Web Design.</p>
-    <p>Here you can see my work and learn more about me. This is my most recent and proudest project right now, <i>Starburst</i>. I made it with a friend for the 2025 Games Fleadh, and we were awarded Best Game using Libraries and Best Game Mechanics.</p>
+    <p>Hey! I'm Riona, nice to meet you!!</p>
+    <p>Here you can see my work and learn more about me. This is my most recent and proudest project right now, <i>Starburst</i>. I made it with a friend for the 2025 Games Fleadh, and we were awarded <b>Best Game using Libraries</b> and <b>Best Game Mechanics</b>. 
+    Check out the Trailer below, and head to the itch page <a href="https://shadowmalteser.itch.io/starburst" target="_blank">here</a> if you'd like to try it out!</p>
     <iframe width="560" height="315" class="left-padding" title="Starburst" src="https://www.youtube.com/embed/gC9f7HGMo1s?si=jWfad7fnDouoU-tT" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen frameborder="0"></iframe>
     <br>
     <a href="https://github.com/RionaKelly" target="_blank"><img src="{base}/github_link.png" class="left-padding" alt="My github link, https://github.com/RionaKelly"></a>
