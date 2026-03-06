@@ -16,23 +16,31 @@
 <div class="first-div">
   <div class="left">
     <p>Hey! I'm Riona, nice to meet you!!</p>
-    <p>Here you can see my work and learn more about me. This is my most recent and proudest project right now, <i>Starburst</i>. I made it with a friend for the 2025 Games Fleadh, and we were awarded <b>Best Game using Libraries</b> and <b>Best Game Mechanics</b>. 
-    Check out the Trailer below, and head to the itch page <a href="https://shadowmalteser.itch.io/starburst" target="_blank">here</a> if you'd like to try it out!</p>
+    <p>Here you can see my work and learn more about me. This is my most recent and proudest project right now, <b><i>Starburst</i></b>. I made it with a friend for the 2025 Games Fleadh, and we were awarded <u><i>Best Game using Libraries</i></u> and <u><i>Best Game Mechanics</i></u>. 
+    Check out the Trailer below, and head to the itch page <a href="https://shadowmalteser.itch.io/starburst" target="_blank"><b>here</b></a> if you'd like to try it out!</p>
     <iframe width="560" height="315" class="left-padding" title="Starburst" src="https://www.youtube.com/embed/gC9f7HGMo1s?si=jWfad7fnDouoU-tT" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen frameborder="0"></iframe>
     <br>
     <a href="https://github.com/RionaKelly" target="_blank"><img src="{base}/github_link.png" class="left-padding" alt="My github link, https://github.com/RionaKelly"></a>
-    <p>Hope you enjoy looking around, and if you want to contact me for any reason you can find out how on the <a href="{base}/contact">Contact</a> page. I love meeting new people if you ever want to talk for any reason!</p>
+    <p>Hope you enjoy looking around, and if you want to contact me for any reason you can find out how on the <a href="{base}/contact"><b>Contact</b></a> page. I love meeting new people if you ever want to talk for any reason!</p>
   </div>
-  <div class="right" align="right">
+  <div class="right">
     <img src="{base}/riona_purple.png" alt="Riona Kelly" class="desktop-only" width="800">
   </div>
 </div>
-<br>
-<h1>My Recent Work</h1>
+
 <div class="second-div">
+<br>
+<h1>Recent Work</h1>
+<h2>An Phiast In: Fishy Business</h2>
+<h2>Starburst</h2>
+</div>
+
+<div class="second-div">
+<br>
+<h1>Older Projects</h1>
   <div class="showcase1">
     <img src="{base}/StarburstSS.png" alt="Screenshot of a game with a spaceship and planet in space" width=600>
-    <h2><b><a href="https://shadowmalteser.itch.io/starburst">Starburst</b></h2>
+    <h2><a href="https://shadowmalteser.itch.io/starburst"><b>Starburst</b></a></h2>
     <p>My team's entry to the 2025 Games Fleadh, Starburst, is a fast paced 2D Shooter where you grab asteroids around you and throw them at planets to destroy them and harvest their cores.</p>
   </div>
   </div>
@@ -43,11 +51,12 @@
   </div>
   <div class="showcase3">
     <img src="{base}/PaintPartySS.png" alt="Screenshot of a game with 4 characters painting over an area" width=600 >
-    <h2><b><a href="{base}/library">Paint Party</b></h2>
+    <h2><a href="{base}/portfolio/games/paintparty"><b>Paint Party</b></a></h2>
     <p>This is a multiplayer party game for up to four people where  you try and paint your colour on as much surface area as you can. I made this with 3 other students as a class project.</p>
 </div>
 
-<style>p {
+<style>
+p {
   padding-top: 16px;
   padding-left: 20px;
   font-size: 24px;
@@ -59,22 +68,36 @@ h1 {
   padding-left: 16px;
 }
 
+h2 {
+  text-align: left;
+  padding-left: 16px;
+}
+
 .left-padding {
   padding-left: 20px;
 }
 
 .left {
  float: left;
- width: 50%;
-}
-.right {
- float: right;
- width: 50%;
- padding: 16px;
- max-height: 200px;
+ width: 55%;
 }
 
+.right {
+ float: right;
+ width: 45%;
+ padding: 16px;
+ padding-top: 2%;
+ padding-left: 2%;
+}
+
+.right img{
+  margin-left: auto;
+  border-radius: 45px;
+}
+
+
 .first-div {
+  padding: 6px;
   padding-top: 16px;
   display: flex;
 }

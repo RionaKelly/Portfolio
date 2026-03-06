@@ -27,6 +27,9 @@
 	"/portfolio/games/unmasked": [
 		"src/routes/+layout.js"
 	],
+	"/portfolio/other/portfolio": [
+		"src/routes/+layout.js"
+	],
 	"/privacy": [
 		"src/routes/+layout.js"
 	]
