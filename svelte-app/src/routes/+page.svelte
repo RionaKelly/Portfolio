@@ -43,7 +43,7 @@
   I made it with a friend for the <u>2025 Games Fleadh, and we were awarded</u> <u><i>Best Game using Libraries</i></u> and <u><i>Best Game Mechanics</i></u>. 
   It is a fast paced 2D Shooter where you grab asteroids flying past you and throw them at planets to destroy them and harvest their cores. 
   <br>I co-designed this with my friend and created the assets and sounds, while he coded everything for it.</p>
-  <p>Check out the Trailer below, and head to the itch page <a href="https://shadowmalteser.itch.io/starburst" target="_blank"><b>here</b></a> if you'd like to try it out!</p>
+  <p>Check out the Trailer below! You can also read more about it on my website <a href="{base}/portfolio/games/starburst"><b>here</b></a> or visit the <a href="https://shadowmalteser.itch.io/starburst" target="_blank"><b>itch page</b></a> if you'd like to try it out!</p>
 <iframe width="560" height="315" class="left-padding" title="Starburst" src="https://www.youtube.com/embed/gC9f7HGMo1s?si=jWfad7fnDouoU-tT" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen frameborder="0"></iframe>
 </div>
 <div class="right">
@@ -52,7 +52,7 @@
   It's a short comedic detective game where an amnesiac An Phiast (the festival's mascot) must try to solve the mystery of who stole 'The Perfect Fish and Chips' from the local chippers. 
   You'll meet a colourful cast of characters to help you on your journey and gather evidence to try and find the culprit.
   <br>We worked as a team to design everything during the game's development, and I wrote and implemented the dialogue, created menus, and modelled the indoor area.</p>
-  <p>You can visit the itch page <a href="https://shadowmalteser.itch.io/https://shadowmalteser.itch.io/fishybusiness" target="_blank"><b>here</b></a> if you want to see more!</p>
+  <p>You can visit the <a href="https://shadowmalteser.itch.io/https://shadowmalteser.itch.io/fishybusiness" target="_blank"><b>itch page</b></a> if you want to see more!</p>
   <p><i>cover image here</i></p>
 </div>
 </div>
@@ -147,15 +147,15 @@ h2 {
   padding: 8px;
 }
 
-.third-div h2 {
+/*.third-div h2 {
   padding-left: 0px;
 }
-/*.starburst {
+.starburst {
   font-family: "AstronBoy";
   font-size: 24px;
-}*/
+}
 
-.showcase1 { /* These are left as seperate classes so that I can play around and try different settings for each one */
+.showcase1
   float: left;
   width: 33%;
   padding: 16px;
@@ -178,7 +178,7 @@ h2 {
 }
 .showcase3 p {
   padding-left: 0;
-}
+}*/
 
 /* Mobile Navigation:*/
 @media (max-width: 1200px) {
@@ -205,7 +205,7 @@ h2 {
     float: none;
   }
 
-  .showcase1 {
+  /*.showcase1 {
     float: none;
     width: 100%;
   }
@@ -216,7 +216,7 @@ h2 {
   .showcase3 {
     float: none;
     width: 100%;
-  }
+  } */
 
   .mobile-only{
   display: block;

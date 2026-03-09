@@ -1,3 +1,2 @@
 # Portfolio
-Riona Kelly - C00296706  
-Submitted 14/05/2025
+My portfolio website to showcase projects I have made and for people to learn more about me :D

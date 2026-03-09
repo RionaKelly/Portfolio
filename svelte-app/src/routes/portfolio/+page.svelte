@@ -14,23 +14,52 @@
 <div>
   <h1>Portfolio</h1>
 </div>
-<div>
-<div class="c1">
-    <img src="{base}/StarburstSS.png" alt="Screenshot of a game with a spaceship and planet in space" width=600>
-    <h2><a href="https://shadowmalteser.itch.io/starburst">Starburst</a></h2>
+<div class="grid">
+  <a href="{base}/portfolio/games/desktoppet">
+  <div>
+    <img src="{base}/DesktopPetSS.png" alt="Screenshot of a game with a spaceship and planet in space">
+    <h2>My Desktop Pet</h2>
     <p>My team's entry to the 2025 Games Fleadh, Starburst, is a fast paced 2D Shooter where you grab asteroids around you and throw them at planets to destroy them and harvest their cores.</p>
   </div>
-  <div class="c2">
-    <img src="{base}/temporary.png" alt="temporary placeholder" width=600>
-    <h2>Gold Divers</h2>
-    <p>Gold Divers is a boardgame that I made alongside my team for the <u>Global Game Jam</u> with my college. </p>
+  </a>
+  <a href="https://shadowmalteser.itch.io/fishybusiness" target="_blank"><!--<a href="{base}/portfolio/games/fishybusiness">-->
+  <div>
+    <img src="{base}/FishyBusinessCover.png" alt="Screenshot of a game with a spaceship and planet in space">
+    <h2>An Phiast in: Fishy Business</h2>
+    <p>My team's entry to the 2025 Games Fleadh, Starburst, is a fast paced 2D Shooter where you grab asteroids around you and throw them at planets to destroy them and harvest their cores.</p>
   </div>
-  <div class="c3">
-    <img src="{base}/PaintPartySS.png" alt="Screenshot of a game with 4 characters painting over an area" width=600 >
-    <h2><a href="{base}/portfolio/games/paintparty">Paint Party</a></h2>
-    <p>This is a multiplayer party game for up to four people where  you try and paint your colour on as much surface area as you can. I made this with 3 other students as a class project.</p>
+  </a>
+  <a href="https://shadowmalteser.itch.io/starburst" target="_blank"><!--<a href="{base}/portfolio/games/starburst">  -->
+  <div>
+    <img src="{base}/StarburstSS.png" alt="Screenshot of a game with a spaceship and planet in space">
+    <h2>Starburst</h2>
+    <p>My team's entry to the 2025 Games Fleadh, Starburst, is a fast paced 2D Shooter where you grab asteroids around you and throw them at planets to destroy them and harvest their cores.</p>
+  </div>
+  </a>
+
+  <a href="https://michael-r-ryan.itch.io/unmasked" target="_blank"><!--<a href="{base}/portfolio/games/unmasked">-->
+  <div>
+    <img src="{base}/UnmaskedSS.png" alt="Screenshot of a game with a spaceship and planet in space">
+    <h2>Unmasked</h2>
+    <p>My team's entry to the 2025 Games Fleadh, Starburst, is a fast paced 2D Shooter where you grab asteroids around you and throw them at planets to destroy them and harvest their cores.</p>
+  </div>
+  </a>
+  <a href="{base}/portfolio/games/golddivers">
+  <div>
+    <img src="{base}/temporary.png" alt="Screenshot of a game with a spaceship and planet in space">
+    <h2>Gold Divers</h2>
+    <p>My team's entry to the 2025 Games Fleadh, Starburst, is a fast paced 2D Shooter where you grab asteroids around you and throw them at planets to destroy them and harvest their cores.</p>
+  </div>
+  </a>
+  <a href="{base}/portfolio/games/paintparty">
+  <div>
+    <img src="{base}/PaintPartySS.png" alt="Screenshot of a game with a spaceship and planet in space">
+    <h2>Paint Party</h2>
+    <p>My team's entry to the 2025 Games Fleadh, Starburst, is a fast paced 2D Shooter where you grab asteroids around you and throw them at planets to destroy them and harvest their cores.</p>
+  </div>
+  </a>
 </div>
-</div>
+
 
 <style>
 h1 {
@@ -42,11 +71,48 @@ h1 {
 }
 
 p {
-  padding: 16px;
   font-size: 20px;
 }
 
-.c1 { /* These are left as seperate classes so that I can play around and try different settings for each one */
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+img {
+  border-radius: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+.grid div {
+  padding: 15px;
+}
+
+.grid img {
+  width: fit-content;
+  height: fit-content;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover {
+    filter: saturate(120%);
+    h2 {
+      text-decoration: underline;
+    }
+}
+
+/*
+.c1 {
   float: left;
   width: 33%;
   padding: 16px;
@@ -69,21 +135,21 @@ p {
 }
 .c3 p {
   padding-left: 0;
-}
+}*/
 
 /* Mobile Navigation:*/
 @media (max-width: 1200px) {
-  .c1 {
-    float: none;
-    width: 100%;
+  .grid {
+    display:block;
+    grid-template-columns: auto;
   }
-  .c2 {
-    float: none;
-    width: 100%;
-  }
-  .c3 {
-    float: none;
-    width: 100%;
+
+  .grid img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-bottom: 16px;
   }
 }
 </style>
