@@ -15,22 +15,21 @@
   <h1>Portfolio</h1>
 </div>
 <div>
-  <div class="c1">
+<div class="c1">
     <img src="{base}/StarburstSS.png" alt="Screenshot of a game with a spaceship and planet in space" width=600>
-    <h2><b><a href="{base}/library">Starburst</b></h2>
+    <h2><a href="https://shadowmalteser.itch.io/starburst">Starburst</a></h2>
     <p>My team's entry to the 2025 Games Fleadh, Starburst, is a fast paced 2D Shooter where you grab asteroids around you and throw them at planets to destroy them and harvest their cores.</p>
   </div>
   <div class="c2">
-    <img src="{base}/PaintPartySS.png" alt="Screenshot of a game with 4 characters painting over an area" width=600 >
-    <h2><b><a href="{base}/library">Paint Party</b></h2>
-    <p>This is a multiplayer party game for up to four people where  you try and paint your colour on as much surface area as you can. I made this with 3 other students as a class project.</p>
-
+    <img src="{base}/temporary.png" alt="temporary placeholder" width=600>
+    <h2>Gold Divers</h2>
+    <p>Gold Divers is a boardgame that I made alongside my team for the <u>Global Game Jam</u> with my college. </p>
   </div>
   <div class="c3">
-    <img src="{base}/temporary.png" alt="temporary placeholder" width=600>
-    <h2><b>More Soon!</b></h2>
-    <p>That's all I have in store for now but I plan to update the website whenever I have more work to show off.</p>
-  </div>
+    <img src="{base}/PaintPartySS.png" alt="Screenshot of a game with 4 characters painting over an area" width=600 >
+    <h2><a href="{base}/portfolio/games/paintparty">Paint Party</a></h2>
+    <p>This is a multiplayer party game for up to four people where  you try and paint your colour on as much surface area as you can. I made this with 3 other students as a class project.</p>
+</div>
 </div>
 
 <style>
@@ -44,6 +43,7 @@ h1 {
 
 p {
   padding: 16px;
+  font-size: 20px;
 }
 
 .c1 { /* These are left as seperate classes so that I can play around and try different settings for each one */
