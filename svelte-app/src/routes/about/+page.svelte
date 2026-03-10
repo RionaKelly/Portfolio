@@ -26,7 +26,7 @@
   });
 </script>
 
-<div class="row">
+<div>
 <div class="left">
   <h1>About Me</h1>
   <p>Hello!! I'm Riona, a Web/Game Designer & Developer based in Ireland :></p>
@@ -59,8 +59,6 @@
 <img src="{base}/riona_bus.png" alt="Riona Selfie at a Bus Stop" id="pic2">
 <img src="{base}/riona_purple.png" alt="Purple Riona Selfie" id="pic3"> <!-- Disabled for now because I don't like it -->
 </div>
-</div>
-<div>
 </div>
 
 <style>
@@ -98,12 +96,6 @@
   border-radius: 15px;
   margin: 5px;
   filter: opacity(100%);
-}
-
-.row:after {
- content: "";
- display: table;
- clear: both;
 }
 
 h1 {

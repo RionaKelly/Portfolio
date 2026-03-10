@@ -34,33 +34,31 @@
   </div>
 </div>
 
-<br>
 <h1>Recent Work</h1>
 <div class="second-div">
 <div class="left">
-<h2>Starburst</h2>
+<h2><u>Starburst</u></h2>
 <p>This is my most recent and proudest  project right now, <i><b>Starburst</b></i>. 
-  I made it with a friend for the <u>2025 Games Fleadh, and we were awarded</u> <u><i>Best Game using Libraries</i></u> and <u><i>Best Game Mechanics</i></u>. 
+  I made it with a friend for the <u>2025 Games Fleadh</u>, and we were awarded <u><i>Best Game using Libraries</i></u> and <u><i>Best Game Mechanics</i></u>. 
   It is a fast paced 2D Shooter where you grab asteroids flying past you and throw them at planets to destroy them and harvest their cores. 
   <br>I co-designed this with my friend and created the assets and sounds, while he coded everything for it.</p>
-  <p>Check out the Trailer below! You can also read more about it on my website <a href="{base}/portfolio/games/starburst"><b>here</b></a> or visit the <a href="https://shadowmalteser.itch.io/starburst" target="_blank"><b>itch page</b></a> if you'd like to try it out!</p>
-<iframe width="560" height="315" class="left-padding" title="Starburst" src="https://www.youtube.com/embed/gC9f7HGMo1s?si=jWfad7fnDouoU-tT" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen frameborder="0"></iframe>
+  <p>Check out the Trailer below! You can also read more about it on my website <a href="{base}/portfolio/games/starburst"><b>here</b></a> or visit the <a href="https://shadowmalteser.itch.io/starburst" target="_blank"><b>itch page</b></a> if you'd like to try it out.</p>
+<iframe title="Starburst" src="https://www.youtube.com/embed/gC9f7HGMo1s?si=jWfad7fnDouoU-tT" class="second-content" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen frameborder="0"></iframe>
 </div>
 <div class="right">
-<h2>An Phiast In: Fishy Business</h2>
+<h2><u>An Phiast In: Fishy Business</u></h2>
 <p>This is my team's Game Sting submisson for the <u>2026 Dingle Animation Festival</u>!
   It's a short comedic detective game where an amnesiac An Phiast (the festival's mascot) must try to solve the mystery of who stole 'The Perfect Fish and Chips' from the local chippers. 
   You'll meet a colourful cast of characters to help you on your journey and gather evidence to try and find the culprit.
   <br>We worked as a team to design everything during the game's development, and I wrote and implemented the dialogue, created menus, and modelled the indoor area.</p>
-  <p>You can visit the <a href="https://shadowmalteser.itch.io/https://shadowmalteser.itch.io/fishybusiness" target="_blank"><b>itch page</b></a> if you want to see more!</p>
-  <p><i>cover image here</i></p>
+  <p>You can visit the <a href="https://shadowmalteser.itch.io/https://shadowmalteser.itch.io/fishybusiness" target="_blank"><b>itch page</b></a> to try it or read a little more on my website <a href="{base}/portfolio/games/fishybusiness"><b>here</b></a>.</p>
+  <img src="{base}/FishyBusinessCover.png" class="second-content" alt="Green monster in detective outfit with chip shop owner and the title 'An Phiast in: Fishy Business'">
 </div>
 </div>
 <br>
 <p>For my older projects check out the <a href="{base}/portfolio"><b>Portfolio</b></a> page, most of them are just old college projects that I'm not a big fan of anymore but it's nice to document them anyway.</p>
 
 <div class="third-div">
-<br>
 <h1>Note from the Author</h1>
   <p>I'm really happy with this website but there's still so much more I want to do with it to make it more me, I hope I can keep adding to it when I have the free time because it's a really fun way to express myself.
     I'm trying to focus as much as I can right now on my current college project (the Desktop Pet (please check it out again it's so cool and I'm really proud of it)) 
@@ -91,6 +89,13 @@ h2 {
   font-weight: bold;
   font-size: 28px;
   padding-left: 20px;
+}
+
+.second-content{
+  padding: 20px;
+  width: 960px;
+  height: 540px;
+  border-radius: 42px;
 }
 
 .left-padding {

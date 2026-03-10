@@ -37,7 +37,13 @@ declare module '$env/static/private' {
 	export const ComSpec: string;
 	export const DriverData: string;
 	export const EDITOR: string;
-	export const EFC_5788_1592913036: string;
+	export const EFC_9924_1262719628: string;
+	export const EFC_9924_1592913036: string;
+	export const EFC_9924_2283032206: string;
+	export const EFC_9924_2775293581: string;
+	export const EFC_9924_3789132940: string;
+	export const FPS_BROWSER_APP_PROFILE_STRING: string;
+	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const GIT_ASKPASS: string;
 	export const GLEW_SDK: string;
 	export const GLM_SDK: string;
@@ -76,7 +82,6 @@ declare module '$env/static/private' {
 	export const NPM_PREFIX_NPM_CLI_JS: string;
 	export const NUMBER_OF_PROCESSORS: string;
 	export const OneDrive: string;
-	export const OneDriveConsumer: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const OS: string;
 	export const Path: string;
@@ -155,7 +160,13 @@ declare module '$env/dynamic/private' {
 		ComSpec: string;
 		DriverData: string;
 		EDITOR: string;
-		EFC_5788_1592913036: string;
+		EFC_9924_1262719628: string;
+		EFC_9924_1592913036: string;
+		EFC_9924_2283032206: string;
+		EFC_9924_2775293581: string;
+		EFC_9924_3789132940: string;
+		FPS_BROWSER_APP_PROFILE_STRING: string;
+		FPS_BROWSER_USER_PROFILE_STRING: string;
 		GIT_ASKPASS: string;
 		GLEW_SDK: string;
 		GLM_SDK: string;
@@ -194,7 +205,6 @@ declare module '$env/dynamic/private' {
 		NPM_PREFIX_NPM_CLI_JS: string;
 		NUMBER_OF_PROCESSORS: string;
 		OneDrive: string;
-		OneDriveConsumer: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		OS: string;
 		Path: string;
