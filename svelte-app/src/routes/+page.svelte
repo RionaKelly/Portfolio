@@ -115,6 +115,7 @@ h2 {
 }
 .first-div .right {
  width: 35%;
+ margin-left: 16px;
 }
 .second-div .left {
  width: 50%;
@@ -152,41 +153,8 @@ h2 {
   padding: 8px;
 }
 
-/*.third-div h2 {
-  padding-left: 0px;
-}
-.starburst {
-  font-family: "AstronBoy";
-  font-size: 24px;
-}
-
-.showcase1
-  float: left;
-  width: 33%;
-  padding: 16px;
-}
-.showcase2 {
-  float: left;
-  width: 33%;
-  padding: 16px;
-}
-.showcase3 {
-  float: right;
-  width: 33%;
-  padding: 16px;
-}
-.showcase1 p {
-  padding-left: 0;
-}
-.showcase2 p {
-  padding-left: 0;
-}
-.showcase3 p {
-  padding-left: 0;
-}*/
-
 /* Mobile Navigation:*/
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   p {
   font-size: 22px;
   }
