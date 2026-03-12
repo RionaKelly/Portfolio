@@ -33,6 +33,7 @@
     .logo {
         display: flex; /* Makes logo container a Flexbox */
         align-items: center; /* Aligns text and image vertically */
+        margin-left: 20px;
     }
 
     .logo img {

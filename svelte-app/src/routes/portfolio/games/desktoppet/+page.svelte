@@ -20,6 +20,7 @@
   <p>This is a virtual pet that will live on your computer desktop that I am working on as part of my full time college project! 
   <br>When you start the game you will gain a random pet that you can take care of and raise by feeding and playing with them while they keep you company, 
   until they are old enough to leave and for the internet to go on their own adventure!</p>
+  <img src="{base}/pets.gif" class="left-padding" alt="Desktop Pets wandering around screen" width=1180px>
   <h2>What's New</h2>
   <p>I just added 2 more pets to the game! You can now start with a Bird, Bunny, or Octopus!</p>
   <h2>What's Next</h2>
@@ -28,12 +29,13 @@
   <h2>Known Issues</h2>
   <p>- The Pet will only function on your left monitor if you have multiple.</p>
 
-   <a href="https://rionakelly.itch.io/desktoppet" target="_blank"><img src="{base}/itchio.png" alt="clickable itch.io icon"></a>
-    <a href="https://github.com/RionaKelly/DesktopPet" target="_blank"><img src="{base}/github.png" alt="clickable github icon"></a>
+   <a href="https://rionakelly.itch.io/desktoppet" target="_blank"><img src="{base}/itchio.png" class="icon" alt="clickable itch.io icon"></a>
+    <a href="https://github.com/RionaKelly/DesktopPet" target="_blank"><img src="{base}/github.png" class="icon" alt="clickable github icon"></a>
 </div>
 
 <div class="right">
-<img src="{base}/DesktopPetSS.png" alt="Screenshot of pixelated animals on a computer desktop">
+<img src="{base}/DesktopPetSS.png" alt="Screenshot of pixel-art animals on a computer desktop">
+<img src="{base}/pet_ideas.png" alt="Twelve pixel-art animals from my project">
 </div>
 </div>
 
@@ -55,12 +57,16 @@
 
 .right img {
   margin-left: 16px;
-  border-radius: 45px;
+  border-radius: 36px;
   max-height: 570px;
   filter: opacity(95%)
 }
 
 .left img {
+  border-radius: 12px;
+}
+
+.icon {
   margin-top: 16px;
   margin-right: 16px;
   height: 48px;

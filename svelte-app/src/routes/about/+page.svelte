@@ -43,7 +43,7 @@
     feel free to message me if you have any questions or want to get to know me more!</p>
   <p>If you can't tell by now, I'm not the most professional person. I can be when I want to and sometimes it's fun, 
     but I believe that my work (or solo work at least) should be an expression of myself, and that anything less fun and silly just isn't personal enough. 
-    <br>It wouldn't be Riona.</p>
+    It wouldn't be Riona.</p>
   <p>Thank you for reading and visiting my website, I hope you like what I've done with the place and enjoy your look around!</p>
   <p class="eyes">
   <img src="{base}/eyes3.jpg" alt="First Eyes for Seperation" class="eye">
