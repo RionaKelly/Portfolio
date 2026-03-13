@@ -57,7 +57,7 @@
   </div>
   </a>
 
-  <a href="{base}/portfolio/games/golddivers">
+  <a href="{base}/portfolio/notyet">
   <div>
     <img src="{base}/GoldDivers.jpg" alt="3 people playing handmade board game with cardboard tiles and divers">
     <h2>Gold Divers</h2>
@@ -65,7 +65,7 @@
   </div>
   </a>
 
-  <a href="{base}/portfolio/games/paintparty">
+  <a href="{base}/portfolio/notyet">
   <div>
     <img src="{base}/PaintPartySS.png" alt="Screenshot of pixel-art characters painting a floor in a game">
     <h2>Paint Party</h2>
@@ -79,7 +79,7 @@
 </div>
 <div class="grid">
 <div></div>
-  <a href="{base}/portfolio/other/portfolio">
+  <a href="{base}/portfolio/notyet">
   <div>
     <img src="{base}/WebsiteThumbnail.png" alt="Screenshot of pixel-art characters painting a floor in a game">
     <h2>My Portfolio</h2>
