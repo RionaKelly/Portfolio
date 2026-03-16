@@ -15,6 +15,9 @@
 	"/portfolio/games/desktoppet": [
 		"src/routes/+layout.js"
 	],
+	"/portfolio/games/fishybusiness": [
+		"src/routes/+layout.js"
+	],
 	"/portfolio/games/golddivers": [
 		"src/routes/+layout.js"
 	],

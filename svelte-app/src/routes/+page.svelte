@@ -19,9 +19,12 @@
     <div class="mobile-only">
     <img src="{base}/riona_purple.png" alt="Riona under purple lighting">
     </div>
-    <p>Here you can see my work and learn more about me. 
-    <br>Recently I've been working on a new project for this college semester, a Desktop Pet!</p>
-    <div class="pet_div">
+    <p>Here you can see my work and learn more about me :D</p>
+    <div class="mobile-only"><p>On mobile this page can be a little cramped since it's mainly text about my past and current work, 
+      if that's not what you're looking for maybe check out the <a href="{base}/about"><b>About</b></a> or <a href="{base}/contact"><b>Contact</b></a> page!</p></div>
+    <h1 style="padding-top: 8px;">What I'm Working On</h1>
+    <p>Recently I've been working on a new project for this college semester, a Desktop Pet!</p>
+    <div class="image-div">
     <img src="{base}/pets.gif" class="pets" alt="Desktop Pets wandering around screen">
     </div>
     <p>I have wanted to make something like this for a really long time and I'm so glad that I finally get the opportunity! 
@@ -29,8 +32,8 @@
     <p>Eventually I plan to make it function more similarly to a <i>Tamagotchi</i> or <i>Digimon</i> where you take care of and raise your pet until they are old enough to leave. 
       You can download the current prototype and read more about this project <a href="{base}/portfolio/games/desktoppet"><b>here</b></a>, keep an eye out for future updates! :D</p>
     <p>Hope you enjoy looking around, and if you'd like to contact me for any reason you can find out how on the <a href="{base}/contact"><b>Contact</b></a> page, and checkout my Github below to see the code for all of my projects.</p>
-    <a href="https://github.com/RionaKelly" target="_blank"><img src="{base}/github_link.png" class="left-padding" alt="My github link, https://github.com/RionaKelly"></a>
-  <h1>Recent Work</h1>
+    <div class="image-div"><a href="https://github.com/RionaKelly" target="_blank"><img src="{base}/github_link.png" class="github" alt="My github link, https://github.com/RionaKelly"></a></div>
+  <h1>Recent Projects</h1>
   </div>
   <div class="right">
     <img src="{base}/riona_purple.png" alt="Riona Kelly" class="desktop-only" width="800">
@@ -54,7 +57,7 @@
   It's a short comedic detective game where an amnesiac An Phiast (the festival's mascot) must try to solve the mystery of who stole 'The Perfect Fish and Chips' from the local chippers. 
   You'll meet a colourful cast of characters to help you on your journey and gather evidence to try and find the culprit.
   We worked as a team to design everything during the game's development, and I wrote and implemented the dialogue, created menus, and modelled the indoor area.</p>
-  <p>You can visit the <a href="https://shadowmalteser.itch.io/https://shadowmalteser.itch.io/fishybusiness" target="_blank"><b>itch page</b></a> to try it or read a little more on my website <a href="{base}/portfolio/games/fishybusiness"><b>here</b></a>.</p>
+  <p>You can visit the <a href="https://shadowmalteser.itch.io/https://shadowmalteser.itch.io/fishybusiness" target="_blank"><b>itch page</b></a> to try check it out!</p>
   <img src="{base}/FishyBusinessCover.png" class="second-content" alt="Green monster in detective outfit with chip shop owner and the title 'An Phiast in: Fishy Business'">
 </div>
 </div>
@@ -67,7 +70,7 @@
     so I don't have the time but one day I'll come back and update this place again. 
     <br> Also hi anyone looking at this from the Animation Festival :D I am working on this as fast as I can so that it will be ready in time for that.
   </p>
-  <p>This website was last updated on 9/3/2026</p>
+  <p>This website was last updated on 16/3/2026</p>
 </div>
 
 <style>
@@ -83,7 +86,6 @@ h1 {
   grid-area: title;
   padding: 16px;
   padding-bottom: 0px;
-  margin-top: 8px;
   font-weight: bold;
   font-size: 40px;
   text-align: left;
@@ -122,7 +124,11 @@ iframe {
   border-radius: 42px;
 }
 
-.left-padding {
+.image-div {
+  margin-right: 20px;
+}
+
+.github {
   margin-left: 20px;
 }
 
@@ -168,12 +174,12 @@ iframe {
   border-radius: 45px;
 }
 
-.pet_div {
-  margin-right: 30px;
-}
-
 /* Mobile Navigation:*/
 @media (max-width: 1000px) {
+  .desktop-only {
+    display:none;
+  }
+
     .first-div {
     padding-left: 4px;
   }
@@ -185,7 +191,11 @@ iframe {
   }
   
   p {
-    font-size: 22px;
+    font-size: 21px;
+  }
+
+  h1 {
+    font-size: 36px;
   }
 
   .first-div .right {
@@ -200,6 +210,11 @@ iframe {
     width: 100%;
   }
 
+  .github {
+    margin-left: 20px;
+    width: 100%;
+  }
+
   .second-div{
     display: block;
   }
@@ -209,6 +224,10 @@ iframe {
   }
   .mobile-only img {
     border-radius: 36px;
+  }
+    .mobile-only p {
+    padding: 0px;
+    padding-left: 8px;
   }
 }
 </style>
