@@ -196,8 +196,8 @@ a:hover {
   }
 
   .intro {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
   }
 }
 </style>
