@@ -22,7 +22,7 @@
     <p>Here you can see my work and learn more about me :D</p>
     <div class="mobile-only"><p>On mobile this page can be a little cramped since it's mainly text about my past and current work, 
       if that's not what you're looking for maybe check out the <a href="{base}/about"><b>About</b></a> or <a href="{base}/contact"><b>Contact</b></a> page!</p></div>
-    <h1 style="padding-top: 8px;">What I'm Working On</h1>
+    <h1 style="padding-top: 8px;">What I'm Up To</h1>
     <p>Recently I've been working on a new project for this college semester, a Desktop Pet!</p>
     <div class="image-div">
     <img src="{base}/pets.gif" class="pets" alt="Desktop Pets wandering around screen">

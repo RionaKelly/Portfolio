@@ -184,6 +184,7 @@ a:hover {
   .grid {
     display:block;
     grid-template-columns: auto;
+    padding: 8px;
   }
 
   .grid img {
@@ -192,6 +193,11 @@ a:hover {
   margin-right: auto;
   width: 100%;
   margin-bottom: 16px;
+  }
+
+  .intro {
+  padding-left: 8px;
+  padding-right: 8px;
   }
 }
 </style>

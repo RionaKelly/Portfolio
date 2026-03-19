@@ -12,7 +12,7 @@
   onMount(() => {
       console.log("About Page Loaded");
 
-  let randomNumber = Math.floor(Math.random() * 2) + 1;
+  let randomNumber = Math.floor(Math.random() * 3) + 1;
   
   if (randomNumber == 1) {
        document.getElementById("pic1").style.display = "block";
@@ -20,9 +20,9 @@
   if (randomNumber == 2) {
        document.getElementById("pic2").style.display = "block";
    }
-  //if (randomNumber == 3) {
-       //document.getElementById("pic3").style.display = "block";
-   //}
+  if (randomNumber == 3) {
+       document.getElementById("pic3").style.display = "block";
+   }
   });
 </script>
 
@@ -57,7 +57,7 @@
 <div class="right">
 <img src="{base}/riona_red.png" alt="Red Riona Selfie with Face Markings" id="pic1">
 <img src="{base}/riona_bus.png" alt="Riona Selfie at a Bus Stop" id="pic2">
-<img src="{base}/riona_purple.png" alt="Purple Riona Selfie" id="pic3"> <!-- Disabled for now because I don't like it -->
+<img src="{base}/riona_purple.png" alt="Purple Riona Selfie" id="pic3">
 </div>
 </div>
 
@@ -133,8 +133,12 @@ p {
   }
 
   .eye {
-  border-radius: 10px;
-  padding-right: 0px;
-}
+  border-radius: 4px;
+  margin: 2px;
+  }
+
+  .eyes {
+  margin: 2px;
+  }
 }
 </style>
