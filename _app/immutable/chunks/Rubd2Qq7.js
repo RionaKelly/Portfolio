@@ -1,0 +1,1 @@
+import{at as o,a8 as a,x as e,$ as c,P as u}from"./DUN_R1uv.js";function f(t){e===null&&o(),c&&e.l!==null?l(e).m.push(t):a(()=>{const n=u(t);if(typeof n=="function")return n})}function l(t){var n=t.l;return n.u??(n.u={a:[],b:[],m:[]})}export{f as o};

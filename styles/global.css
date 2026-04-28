@@ -3,13 +3,21 @@
    ============================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Monda&display=swap');
+@font-face {
+    font-family: AstronBoy;
+    src: url('fonts/AstronBoyItalic.otf');
+}
 
 :root {
     /* Color Variables */
-    --primary-color: #643872;
+    --primary-color: #f7ce76;
+    --background-color: #070114;
+    --text-color: #fff0ac;
+    --link-hover-color: #fccf61;
+    /*--primary-color: #643872;
     --background-color: #c8c8c8;
     --text-color: #000000;
-    --link-hover-color: #cc62c7;
+    --link-hover-color: #cc62c7;*/
 
     /* Font Variables */
     --font-family: "Fira Sans", sans-serif;
@@ -72,7 +80,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: var(--link-hover-color);
+    filter: saturate(150%);
 }
 
 /* ==============================
