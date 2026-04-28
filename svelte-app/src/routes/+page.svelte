@@ -23,14 +23,13 @@
     <div class="mobile-only"><p>On mobile this page can be a little cramped since it's mainly text about my past and current work, 
       if that's not what you're looking for maybe check out the <a href="{base}/about"><b>About</b></a> or <a href="{base}/contact"><b>Contact</b></a> page!</p></div>
     <h1 style="padding-top: 8px;">What I'm Up To</h1>
-    <p>Recently I've been working on a new project for this college semester, a Desktop Pet!</p>
+    <p>Right now I'm just done working on my project for this semester, a <a href="{base}/portfolio/games/desktoppet"><b>Desktop Pet!</b></a></p>
     <div class="image-div">
     <img src="{base}/pets.gif" class="pets" alt="Desktop Pets wandering around screen">
     </div>
     <p>I have wanted to make something like this for a really long time and I'm so glad that I finally get the opportunity! 
-      As of right now there are 3 pets that you can start with and they will just wander around your screen, sometimes stopping and looking at you or sitting down.</p>
-    <p>Eventually I plan to make it function more similarly to a <i>Tamagotchi</i> or <i>Digimon</i> where you take care of and raise your pet until they are old enough to leave. 
-      You can download the current prototype and read more about this project <a href="{base}/portfolio/games/desktoppet"><b>here</b></a>, keep an eye out for future updates! :D</p>
+      There are 3 pets that you can start with, then you can take care of them and keep them happy and healthy so that they evolve and unlock new appearances and personality traits!
+      You can download the current version and read more about this project <a href="{base}/portfolio/games/desktoppet"><b>here</b></a>, keep an eye out for future updates! :D</p>
     <p>Hope you enjoy looking around, and if you'd like to contact me for any reason you can find out how on the <a href="{base}/contact"><b>Contact</b></a> page, and checkout my Github below to see the code for all of my projects.</p>
     <div class="image-div"><a href="https://github.com/RionaKelly" target="_blank"><img src="{base}/github_link.png" class="github" alt="My github link, https://github.com/RionaKelly"></a></div>
   <h1>Recent Projects</h1>
